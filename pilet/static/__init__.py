@@ -1,0 +1,1 @@
+from pilet.static.router import input_prompt
