@@ -1,5 +1,5 @@
-examples/ linguist-documentation=false
-examples/ linguist-vendored
+examples/* linguist-documentation=false
+examples/* linguist-vendored
 
-pilet/ linguist-documentation=false
-pilet/ linguist-vendored
+pilet/* linguist-documentation=false
+pilet/* linguist-vendored
