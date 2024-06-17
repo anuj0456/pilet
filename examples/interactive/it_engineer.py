@@ -1,13 +1,12 @@
-from pilet.pilet import Pilet
-from pilet.agents import InteractiveAgent
-from pilet.jobs import Translator, VideoStreaming, QA, SentimentAnalysis, Job
-
 import os
+
+from pilet.pilet import Pilet
+from pilet.jobs import Translator, VideoStreaming, QnA, SentimentAnalysis, Job
 
 
 trans = Translator(in_lang="auto", out_lang="eng")
 vs = VideoStreaming()
-qa = QA()
+qa = QnA()
 sa = SentimentAnalysis()
 
 pilet = Pilet(jobs=[trans, vs, qa, sa], mode="interactive")

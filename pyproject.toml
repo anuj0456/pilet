@@ -24,6 +24,9 @@ mkdocs = "^1.6.0"
 openai = "^1.30.2"
 langchain-core = "^0.2.1"
 speechrecognition = "^3.10.4"
+streamlit = "^1.35.0"
+streamlit-option-menu = "^0.3.13"
+tk = "^0.1.0"
 
 [build-system]
 requires = ["poetry-core"]

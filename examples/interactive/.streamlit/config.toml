@@ -1,0 +1,11 @@
+[theme]
+primaryColor = "#F63366"
+backgroundColor = "white"
+
+[global]
+toolbarMode = "minimal"
+showSidebarNavigation = false
+
+[browser]
+serverAddress = "localhost"
+port = 8080
