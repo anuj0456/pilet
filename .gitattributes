@@ -1,2 +1,6 @@
 pilet/* linguist-documentation=false
-pilet/* linguist-vendored
+examples/*.j linguist-language=Java
+*.html linguist-vendored
+*.css linguist-vendored
+
+
